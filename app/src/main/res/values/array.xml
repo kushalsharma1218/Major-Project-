@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_name">
+        <item>Auto</item>
+        <item>Portrait</item>
+        <item>Landscape</item>
+    </string-array>
+    <string-array name="items_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="itemName">
+        <item>Change Password</item>
+    </string-array>
+    <string-array name="itemValue">
+        <item>1</item>
+    </string-array>
+    <string-array name="commentDetails">
+        <item>Public</item>
+        <item>Only Followers</item>
+        <item>Only Following</item>
+        <item>Followers and Following</item>
+        <item>Only me</item>
+    </string-array>
+    <string-array name="commentValue">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="updownDetails">
+        <item>Public</item>
+        <item>Only Followers</item>
+        <item>Only Following</item>
+        <item>Followers and Following</item>
+        <item>Only me</item>
+    </string-array>
+    <string-array name="updownValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="accountDetails">
+        <item> Restricted Accounts </item>
+        <item> Blocked Accounts </item>
+        <item> Change User Name </item>
+        <item> Muted Accounts </item>
+        <item> Invite Friends </item>`
+        <item> Deactivate Account </item>
+    </string-array>
+    <string-array name="accountValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+
+    <string-array name="notificationDetail">
+        <item> Mute All </item>
+        <item> Mute Post Notification </item>
+        <item> Comment Notification </item>
+        <item> Follow Notification</item>
+    </string-array>
+
+    <string-array name="notificationValue">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="privacy">
+        <item>ExpressBlog cares about the privacy of users and is taken very seriously.
+             This describes the policy and procedures on the collection of data we store and
+             share when you use the ExpressBlog platform.</item>
+    </string-array>
+
+    <string-array name="copy">
+        <item>At ExpressBlog we expect from our users to respect the content made by others.
+             We ask users to take care of avoiding the copyright of others.
+             If you infringe the copyright by others your content can be removed and
+             the account may be suspended as a whole if it comes to us in repeatedly. </item>
+    </string-array>
+
+    <string-array name="trade">
+        <item>At ExpressBlog we expect from our users to respect the content made by others.
+            We ask users to take care of avoiding the Trademark of others.
+            If you infringe the Trademark by others your content can be removed and
+            the account may be suspended as a whole if it comes to us in repeatedly. </item>
+    </string-array>
+    <string-array name="use">
+        <item> ExpressBlog is a  place where people share and grow their knowledge.
+            We believe in educating every user who is part of the community.
+            BE NICE AND RESPECT OTHERS.
+            RESPECT THE PLATFORM.
+            RESPECT THE RIGHTS.
+            BE RESPECTFUL</item>
+    </string-array>
+    <string-array name="welcome">
+        <item>Here are the terms and conditions for your service :
+            Separate platform for growing and sharing knowledge:
+            Our mission is to create a platform where users can share knowledge,
+            ask for queries and this helps the community to grow.
+            Content is yours: We also permit you to report the content posted without your permission.
+            Responsibility: The content you post should not violate the legal laws of any third party.
+            Rules of the platform: When you use the ExpressBlog platform you also agree to our
+            Terms of Service, Privacy Policy, Copyright Policy, Trademark Policy, and Use Policy.</item>
+    </string-array>
+</resources>

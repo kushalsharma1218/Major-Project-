@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/miscellineous2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="12dp"
+    android:background="@color/gray_opaque"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    >
+
+
+
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp">
+
+
+
+
+
+        <ImageView
+            android:id="@+id/upvote_p"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/upvote2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/upvote_count_p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="30dp"
+            android:text="1354"
+            android:textSize="14sp"
+            android:textColor="@color/gray"
+            android:layout_toRightOf="@+id/upvote_p"
+            android:layout_centerVertical="true"
+
+            />
+
+        <ImageView
+            android:id="@+id/downvote_p"
+            android:src="@drawable/downvote2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+
+            android:layout_toRightOf="@+id/upvote_count_p"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/downvote_count_p"
+            android:layout_toRightOf="@+id/downvote_p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="30dp"
+            android:layout_centerVertical="true"
+            android:text="1354234"
+            android:textSize="14sp"
+            android:textColor="@color/gray"
+            />
+
+        <ImageView
+
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_share"
+            android:layout_toLeftOf="@+id/save_post"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            />
+        <ImageView
+            android:id="@+id/save_post"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_save_post"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            />
+
+
+
+    </RelativeLayout>
+</LinearLayout>

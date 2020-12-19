@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/follow_person_item"
+    android:title="follow/unfollow" />
+<item android:id="@+id/hide_item"
+    android:title="hide" />
+    <item android:id="@+id/improve"
+        android:title="Improve Post" />
+</menu>

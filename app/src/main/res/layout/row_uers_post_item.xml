@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="6dp"
+    android:background="@color/blue_opaque"
+    android:padding="5dp"
+    >
+
+<RelativeLayout
+    android:id="@+id/holder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/row_post_title_p"
+        android:layout_width="wrap_content"
+        android:maxWidth="250dp"
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textColor="#0C0C0C"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/post_date_p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/row_post_title_p"
+            android:text="17 july 2020 19:26"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/post_options_p"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_more"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp"
+
+            />
+
+
+    <TextView
+        android:id="@+id/description_p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post_date_p"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:maxLines="8"
+        android:textSize="14sp"
+        android:text="Text of post will appear here limit top 100 character" />
+
+    <ImageView
+        android:id="@+id/row_post_img_p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="250dp"
+        android:layout_below="@id/description_p"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+
+
+</RelativeLayout>
+<RelativeLayout
+    android:id="@+id/user_action_holder"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="0dp"
+    android:background="@color/white"
+    app:layout_constraintTop_toBottomOf="@id/holder"
+    >
+
+    <ImageView
+        android:id="@+id/upvote_p"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/upvote2" />
+    <TextView
+        android:id="@+id/upvote_count_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="30dp"
+        android:text="1354"
+        android:textSize="12sp"
+        android:textColor="@color/gray"
+        android:layout_toRightOf="@+id/upvote_p"
+        android:layout_centerVertical="true"
+
+        />
+
+    <ImageView
+        android:id="@+id/downvote_p"
+        android:src="@drawable/downvote2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+
+        android:layout_toRightOf="@+id/upvote_count_p"
+        android:layout_marginLeft="8dp"
+        />
+    <TextView
+        android:id="@+id/downvote_count_p"
+        android:layout_toRightOf="@+id/downvote_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="30dp"
+        android:layout_centerVertical="true"
+        android:text="1354234"
+        android:textSize="12sp"
+        android:textColor="@color/gray"
+        />
+
+
+
+
+</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

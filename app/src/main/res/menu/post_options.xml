@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/item1_p"
+    android:title="follow/unfollow"
+    />
+<item android:id="@+id/item2_p"
+    android:title="mute"
+    />
+<item android:id="@+id/item3_p"
+    android:title="report"
+    />
+<item android:id="@+id/improve"
+    android:title="Improve Post"
+    />
+
+</menu>

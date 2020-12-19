@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <PreferenceCategory android:title="My Account">
+        <ListPreference
+            android:entries="@array/accountDetails"
+            android:entryValues="@array/accountValues"
+            android:key="ACCOUNT"
+            android:title="Account Setting"></ListPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Privacy Setting">
+        <ListPreference
+            android:title="Major Setting"
+            android:key="MS"
+            android:entries="@array/itemName"
+            android:entryValues="@array/itemValue">
+        </ListPreference>
+        <MultiSelectListPreference
+            android:title="Who can comment on my blogs?"
+            android:key="COMMENT"
+            android:entries="@array/commentDetails"
+            android:entryValues="@array/commentValue">
+        </MultiSelectListPreference>
+        <MultiSelectListPreference
+            android:title="Who can Upvote and Downvote on my blog?"
+            android:key="UPDOWN"
+            android:entries="@array/updownDetails"
+            android:entryValues="@array/updownValues">
+        </MultiSelectListPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Enable Night Mode">
+        <CheckBoxPreference
+            android:title="Night Mode"
+            android:key="NIGHT"
+            android:defaultValue="false"
+            android:summaryOn="Night Mode is Activated"
+            android:summaryOff="Night Mode is Deactivated"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Screen Orientation">
+        <ListPreference
+            android:title="Orientation"
+            android:key="ORIENTATION"
+            android:entries="@array/items_name"
+            android:entryValues="@array/items_value"
+            android:defaultValue="false">
+        </ListPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Two-step verification"
+        android:key="TSV">
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Notifications">
+        <ListPreference
+            android:title="Notifications Setting"
+            android:key="NOTIFICATION"
+            android:entries="@array/notificationDetail"
+            android:entryValues="@array/notificationValue">
+        </ListPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Feedback">
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Terms and Conditions">
+        <MultiSelectListPreference
+            android:title="Welcome to ExpressBlog"
+            android:key="WELCOME"
+            android:entryValues="@array/welcome"
+            android:entries="@array/welcome"
+            >
+        </MultiSelectListPreference>
+        <MultiSelectListPreference
+            android:title="Privacy"
+            android:key="PRI"
+            android:entries="@array/privacy"
+            android:entryValues="@array/privacy"
+            >
+        </MultiSelectListPreference>
+        <MultiSelectListPreference
+            android:title="Copyrigth Policy "
+            android:key="COPY"
+            android:entries="@array/copy"
+            android:entryValues="@array/copy"
+            >
+        </MultiSelectListPreference>
+        <MultiSelectListPreference
+            android:title="Trade Mark Policy"
+            android:key="TMP"
+            android:entries="@array/trade"
+            android:entryValues="@array/copy"
+            >
+        </MultiSelectListPreference>
+        <MultiSelectListPreference
+            android:title="Use Policy"
+            android:key="USE"
+            android:entries="@array/use"
+            android:entryValues="@array/use"
+            >
+        </MultiSelectListPreference>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
+
+

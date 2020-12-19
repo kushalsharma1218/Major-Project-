@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "923420088884",
+    "firebase_url": "https://expressblog-c4d48.firebaseio.com",
+    "project_id": "expressblog-c4d48",
+    "storage_bucket": "expressblog-c4d48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923420088884:android:031771db9979292c94c861",
+        "android_client_info": {
+          "package_name": "com.example.expressblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923420088884-o4jbcnm7271b38883oarno1meqcq5ja3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.expressblog",
+            "certificate_hash": "802315b8506b32c17314ef88f68e515f93336e98"
+          }
+        },
+        {
+          "client_id": "923420088884-9sp4190i3hjgh6e9u2c6ku59dka7va21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwS0uWhs-OkVP8FA2sQQxldZJ7HrPa7QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923420088884-9sp4190i3hjgh6e9u2c6ku59dka7va21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
